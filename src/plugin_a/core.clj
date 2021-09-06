@@ -2,7 +2,7 @@
   (:require [clojure.tools.cli :refer [parse-opts]]
             [taoensso.timbre :as log]))
 
-(defn init []
+(defn init [_]
   (log/info "------>>>plugin-a loaded<<<--------"))
 
 
